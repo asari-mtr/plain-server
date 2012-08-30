@@ -8,6 +8,21 @@
 
     <name>sample</name>
 
+    <repositories>
+    	<repository>
+    		<id>Java.Net</id>
+            <url>http://download.java.net/maven/2/</url>
+    	</repository>
+    </repositories>
+
+    <dependencies>
+    	<dependency>
+    		<groupId>javax</groupId>
+    		<artifactId>javaee-api</artifactId>
+    		<version>6.0</version>
+    	</dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin> 
