@@ -1,3 +1,4 @@
+<%@ page import="java.util.*" %>
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -5,8 +6,8 @@
     <title></title>
 </head>
 <body>
-    <% for (int i = 0; i < 10; i++) { %>
-    Hello World!!<br/>
+    <% for (Enumeration<String> e = request.getHeaderNames(); e.hasMoreElements();) { %>
+    <%= e.nextElement() %><br/>
     <% } %>
 </body>
 </html>
