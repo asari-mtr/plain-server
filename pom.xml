@@ -94,6 +94,7 @@
                         <include>**/*Suite.*</include>
                         <include>**/*Spec.*</include>
                     </includes>
+                    <argLine>-Dspecs2.console</argLine>
                 </configuration>
             </plugin>
             <plugin>
