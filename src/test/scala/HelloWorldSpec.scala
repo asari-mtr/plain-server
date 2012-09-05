@@ -1,9 +1,6 @@
 import org.specs2.mutable._
-import org.specs2.runner._
-import org.junit.runner._
 
-@RunWith(classOf[JUnitRunner])
-class HelloWorldSpec extends Specification {
+class HelloWorldSpec extends SpecificationWithJUnit {
 
     "The 'Hello world' string" should {
         "contain 11 characters" in {

@@ -87,8 +87,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.7.2</version>
                 <configuration>
-                    <useFile>true</useFile>
-                    <disableXmlReport>true</disableXmlReport>
                     <includes>
                         <include>**/*Test.*</include>
                         <include>**/*Suite.*</include>
